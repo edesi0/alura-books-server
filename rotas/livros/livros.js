@@ -6,6 +6,8 @@ const {getLivros} = require("../controladores/controleLivros");
 const router = Router();
 
 router.get('/',getLivros);
+  
+
 
 router.post('/',(req,res)=>{
     res.send("Você fez uma requisção de Post");
